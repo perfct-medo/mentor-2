@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+}
+
+
+/* small */
+
+@media (min-width:578) {
+    .container {
+        width: 375;
+    }
+}
+
+
+/* large */
+
+@media (min-width:1500) {
+    .container {
+        width: 1400;
+    }
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.container .medo {
+    width: 300px;
+    margin: 100px auto;
+    padding: 15px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+
+.medo img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.medo .text {
+    padding: 10px;
+    text-align: center;
+}
+
+.medo h2 {
+    font-size: 22px;
+    color: hsl(218, 44%, 22%);
+}
+
+.medo p {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
